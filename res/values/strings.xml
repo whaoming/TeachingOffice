@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TeachingOffice2</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="office_score_subject">科目</string>
+    <string name="office_scoreinfofragment_score">成绩</string>
+    <string name="fragment_borrow_history">借书历史</string>
+    <string name="fragment_borrow_state">借阅情况</string>
+    <string name="fragment_lib_userinfo">用户信息</string>
+    <string name="fragment_fast_serach">快速检索</string>
+    <string name="fragment_lib_login">登录</string>
+    <string name="fragment_lib_library">图书馆</string>
+    <string name="fragment_office_elective">选课情况</string>
+    <string name="fragment_office_querry_score">成绩查询</string>
+    <string name="fragment_office_personal_info">个人信息</string>
+    <string name="fragment_office_classform">课程表</string>
+    <string name="fragment_office_zhengfangxitong">正方系统</string>
+    <string name="fragment_office_nologin">未登录</string>
+    <string name="activity_lib_search_nodata">图书馆未搜到此结果</string>
+    <string name="activity_lib_seach_et_hint">请输入搜索内容</string>
+    <string name="activity_lib_serch_btn_text">搜索</string>
+
+</resources>

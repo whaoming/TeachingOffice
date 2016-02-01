@@ -1,0 +1,181 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <include
+        android:id="@+id/loading_view"
+        layout="@layout/layout_loading" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:padding="3dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_margin="6dp"
+                android:textSize="17sp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="证号" />
+            <TextView
+                android:layout_margin="6dp"
+                android:textSize="17sp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="姓名" />
+             <TextView
+                android:layout_margin="6dp"
+                android:textSize="17sp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="类型" />
+             <TextView
+                android:layout_margin="6dp"
+                android:textSize="17sp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="当前状态" />
+             <TextView
+                android:layout_margin="6dp"
+                android:textSize="17sp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话" />
+             <TextView
+                android:layout_margin="6dp"
+                android:textSize="17sp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="手机" />
+             <TextView
+                android:layout_margin="6dp"
+                android:textSize="17sp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="备注" />
+             <TextView
+                android:layout_margin="6dp"
+                android:textSize="17sp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Email地址" />
+             <TextView
+                android:layout_margin="6dp"
+                android:textSize="17sp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="预约取书地点" />
+             <TextView
+                android:layout_margin="6dp"
+                android:textSize="17sp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="预存金额" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:padding="3dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="vertical" >
+
+          <TextView
+                android:layout_margin="6dp"
+                android:textSize="17sp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="预存金额" />
+          <TextView
+                android:layout_margin="6dp"
+                android:textSize="17sp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="预存金额" />
+          <TextView
+                android:layout_margin="6dp"
+                android:textSize="17sp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="预存金额" />
+          <TextView
+                android:layout_margin="6dp"
+                android:textSize="17sp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="预存金额" />
+          <TextView
+                android:layout_margin="6dp"
+                android:textSize="17sp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="预存金额" />
+          <TextView
+                android:layout_margin="6dp"
+                android:textSize="17sp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="预存金额" />
+          <TextView
+                android:layout_margin="6dp"
+                android:textSize="17sp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="预存金额" />
+          <TextView
+                android:layout_margin="6dp"
+                android:textSize="17sp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="预存金额" />
+          <TextView
+                android:layout_margin="6dp"
+                android:textSize="17sp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="预存金额" />
+          <TextView
+                android:layout_margin="6dp"
+                android:textSize="17sp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="预存金额" />
+          <TextView
+                android:layout_margin="6dp"
+                android:textSize="17sp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="预存金额" />
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

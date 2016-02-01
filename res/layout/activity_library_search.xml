@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+     <include
+        android:id="@+id/title_bar"
+        layout="@layout/layout_title_bar" />
+   <EditText 
+       android:hint="@string/activity_lib_seach_et_hint"
+       android:id="@+id/et_content"
+       android:layout_height="wrap_content"
+       android:layout_width="match_parent"
+       />
+   <Button 
+       android:text="@string/activity_lib_serch_btn_text"
+        android:layout_height="wrap_content"
+       android:layout_width="match_parent"
+       android:id="@+id/btn_search"
+       />
+   <TextView 
+       android:id="@+id/tv_nodata"
+       android:visibility="gone"
+       android:text="@string/activity_lib_search_nodata"
+       android:layout_height="wrap_content"
+       android:layout_width="match_parent"
+       />
+
+  <ListView 
+      android:layout_margin="8dp"
+      android:divider="@drawable/list_line"
+      android:id="@+id/lv_lv"
+       android:layout_height="match_parent"
+       android:layout_width="match_parent"
+      />
+</LinearLayout>
