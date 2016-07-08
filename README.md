@@ -1,4 +1,4 @@
-ps:后面重新改写了一下这个项目，优化了代码结构，从MVC转换称MVP模式
+ps:后面重新改写了一下这个项目，优化了代码结构，从MVC重构成MVP模式
 
 > 我只是一个传送门：https://github.com/122627018/TeachingOffice2
 
